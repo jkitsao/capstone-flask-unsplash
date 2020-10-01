@@ -8,6 +8,6 @@ def index():
     
 @app.errorhandler(404)
 def not_found(e):
-  return render_template('custom_page2.html'), 404
+  return render_template('customerror_page.html'), 404
 
 # repaet to handle 403 401 etc................................................
